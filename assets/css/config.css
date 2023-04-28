@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    color: var(--selection__color);
+    background-color: var(--selection__background-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    position: relative;
+
+    min-width: var(--min-width);
+
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+
+    text-transform: var(--text-transform);
+    letter-spacing: var(--letter-spacing);
+
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+/* body,
+.page {
+    min-height: 100vh;
+} */

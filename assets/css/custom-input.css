@@ -1,0 +1,33 @@
+.custom-input {
+    position: relative;
+
+    box-shadow: var(--box-shadow);
+
+    border-radius: var(--border-radius_s);
+}
+
+.custom-input.custom-input_subscribe input {
+    min-width: 24rem;
+
+    color: var(--secondary-color);
+
+    background-color: #262C2E;
+
+    border-radius: var(--border-radius_s);
+}
+
+.custom-input__input {
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+
+    min-width: 17.75rem;
+    height: 3rem;
+}
+
+.custom-input__icon {
+    position: absolute;
+
+    top: 50%;
+    right: 1rem;
+    transform: translate(0, -50%);
+}

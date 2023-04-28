@@ -1,0 +1,116 @@
+/* container */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 1600px;
+}
+
+/* page */
+
+.page {
+    padding-top: 1rem;
+}
+
+/* main */
+
+.main {
+    padding-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 6.25rem;
+}
+
+.main__box-1 {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 1.5em;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* user */
+/* basket */
+
+.user,
+.basket {
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: var(--box-shadow);
+
+    border-radius: var(--border-radius_s);
+}
+
+/* where-are-we */
+
+.where-are-we {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+
+    font-weight: 500;
+
+    color: var(--accent-color);
+}
+
+.where-are-we__icon {
+    fill: var(--accent-color);
+}
+
+/* phone-number */
+
+.phone-number {
+    font-weight: 600;
+}
+
+/* icon */
+
+.icon.icon_xs {
+    width: 1rem;
+    height: 1rem;
+}
+
+.icon.icon_s {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.icon.icon_m {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon.icon_l {
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon.icon_xl {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* title */
+
+.title {
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+/* h */
+
+h2 {
+    font-size: var(--h2_font-size);
+}

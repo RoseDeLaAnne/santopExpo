@@ -1,0 +1,37 @@
+.subscribe-to-the-newsletter {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.subscribe-to-the-newsletter__inner {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    min-height: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe-to-the-newsletter__box-1 {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-to-the-newsletter__box-11 {
+    margin-left: 1.5em;
+}
+
+.subscribe-to-the-newsletter__icon {
+    fill: #000;
+}
+
+.subscribe-to-the-newsletter__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.subscribe-to-the-newsletter__subtitle {
+    font-size: 0.875rem;
+}

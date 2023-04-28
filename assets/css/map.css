@@ -1,0 +1,22 @@
+.map {
+    position: relative;
+}
+
+.map__map {
+    width: 100%;
+    height: 32rem;
+}
+
+.map__building-img {
+    position: absolute;
+
+    top: 50%;
+    left: 6rem;
+    transform: translate(0, -50%);
+
+    height: 22rem;
+
+    border-radius: var(--border-radius_m);
+
+    z-index: 1;
+}
