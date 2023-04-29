@@ -57,7 +57,7 @@
 .where-are-we {
     display: flex;
     align-items: center;
-    column-gap: 1rem;
+    column-gap: .5rem;
 
     font-weight: 500;
 

@@ -14,6 +14,28 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/header.css" />
         <link rel="stylesheet" href="assets/css/footer.css" />
+        <link rel="stylesheet" href="assets/css/promo.css" />
+        <link rel="stylesheet" href="assets/css/advantages.css" />
+        <link rel="stylesheet" href="assets/css/popular-categories.css" />
+        <link rel="stylesheet" href="assets/css/promotions-of-the-month.css" />
+        <link rel="stylesheet" href="assets/css/goods-in-the-showroom.css" />
+        <link rel="stylesheet" href="assets/css/brands.css" />
+        <link
+            rel="stylesheet"
+            href="assets/css/brands-represented-in-the-showroom.css"
+        />
+        <link rel="stylesheet" href="assets/css/gallery.css" />
+        <link rel="stylesheet" href="assets/css/video-blog.css" />
+        <link rel="stylesheet" href="assets/css/map.css" />
+        <link rel="stylesheet" href="assets/css/mailing.css" />
+        <link rel="stylesheet" href="assets/css/cards.css" />
+        <link rel="stylesheet" href="assets/css/card-slider.css" />
+        <link rel="stylesheet" href="assets/css/video-slider.css" />
+        <link rel="stylesheet" href="assets/css/slider.css" />
+        <link rel="stylesheet" href="assets/css/logo.css" />
+        <link rel="stylesheet" href="assets/css/nav.css" />
+        <link rel="stylesheet" href="assets/css/btn.css" />
+        <link rel="stylesheet" href="assets/css/custom-input.css" />
 
         <link
             rel="stylesheet"
@@ -22,262 +44,698 @@
         />
     </head>
     <body>
-        <header class="header">
-            <div class="header__box-1">
-                <a href="#" class="logo">Logo</a>
+        <script
+            src="https://api-maps.yandex.ru/2.1/?lang=en_US"
+            type="text/javascript"
+        ></script>
+
+        <div class="page">
+            <header class="container header">
+                <div class="header__box-1">
+                    <a href="#" class="logo">
+                        <img
+                            src="assets/icons/logo.svg"
+                            alt="Logo"
+                            class="logo__icon"
+                    /></a>
+                    <nav class="nav">
+                        <ul class="nav__ul">
+                            <li class="nav__item">
+                                <a
+                                    href="showroom.html"
+                                    class="nav__item-link btn btn_primary"
+                                >
+                                    Шоурум
+                                    <svg class="nav__item-icon icon icon_s">
+                                        <use
+                                            href="assets/icons/icons.svg#showroom"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="catalog.html"
+                                    class="nav__item-link btn btn_accent"
+                                >
+                                    Каталог
+                                    <svg class="nav__item-icon icon icon_s">
+                                        <use
+                                            href="assets/icons/icons.svg#catalog"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="brands.html" class="nav__item-link"
+                                    >Бренды</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item-link">Доставка</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__box-2">
+                    <div class="header__box-21">
+                        <div class="custom-input">
+                            <input
+                                type="text"
+                                class="custom-input__input"
+                                placeholder="Что вы хотите найти?"
+                            />
+                            <svg class="custom-input__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#magnifier" />
+                            </svg>
+                        </div>
+                        <a href="#" class="user">
+                            <svg class="user__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#user" />
+                            </svg>
+                        </a>
+                        <a href="#" class="basket">
+                            <svg class="basket__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#basket" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__box-22">
+                        <a href="#" class="where-are-we">
+                            <svg class="where-are-we__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#yandex" />
+                            </svg>
+                            Где мы?
+                        </a>
+                        <a href="tel:84951747044" class="phone-number"
+                            >8-495-174-70-44</a
+                        >
+                        <div class="header-socials">
+                            <a href="#" class="header-socials__link">
+                                <svg class="header-socials__icon icon icon_m">
+                                    <use
+                                        href="assets/icons/icons.svg#telegram"
+                                    />
+                                </svg>
+                            </a>
+                            <a href="#" class="header-socials__link">
+                                <svg class="header-socials__icon icon icon_m">
+                                    <use
+                                        href="assets/icons/icons.svg#whatsapp"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main">
+                <div class="main__box-1">
+                    <section class="container promo">
+                        <video
+                            src="assets/videos/video-1.mp4"
+                            muted
+                            loop
+                            autoplay
+                            class="promo__video"
+                        ></video>
+                    </section>
+                    <section class="container advantages">
+                        <!-- <h2 class="title advantages__title hidden">
+                            Преимущества
+                        </h2> -->
+
+                        <div class="advantages__box-1">
+                            <div class="advantages__item">
+                                <svg class="advantages__item-icon icon icon_xl">
+                                    <use
+                                        href="assets/icons/icons.svg#catalog"
+                                    />
+                                </svg>
+                                <div class="advantages__box-11">
+                                    <p class="advantages__item-title">36</p>
+                                    <p class="advantages__item-text">
+                                        брендов сантехники и аксессуаров
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="advantages__item">
+                                <svg class="advantages__item-icon icon icon_xl">
+                                    <use href="assets/icons/icons.svg#basket" />
+                                </svg>
+                                <div class="advantages__box-11">
+                                    <p class="advantages__item-title">
+                                        100 000
+                                    </p>
+                                    <p class="advantages__item-text">
+                                        товаров в наличии
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="advantages__item">
+                                <svg class="advantages__item-icon icon icon_xl">
+                                    <use href="assets/icons/icons.svg#basket" />
+                                </svg>
+                                <div class="advantages__box-11">
+                                    <p class="advantages__item-title">
+                                        100 000
+                                    </p>
+                                    <p class="advantages__item-text">
+                                        товаров в наличии
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="advantages__item">
+                                <svg class="advantages__item-icon icon icon_xl">
+                                    <use href="assets/icons/icons.svg#basket" />
+                                </svg>
+                                <div class="advantages__box-11">
+                                    <p class="advantages__item-title">
+                                        100 000
+                                    </p>
+                                    <p class="advantages__item-text">
+                                        товаров в наличии
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <section class="brands-represented-in-the-showroom">
+                    <div class="container">
+                        <h2
+                            class="brands-represented-in-the-showroom__title title"
+                        >
+                            Бренды представленные в шоуруме
+                        </h2>
+
+                        <div class="brands-represented-in-the-showroom__box-1">
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                            <div
+                                class="brands-represented-in-the-showroom__item"
+                            >
+                                <img
+                                    src="assets/icons/brand-1.svg"
+                                    alt=""
+                                    class="brands-represented-in-the-showroom__item-icon"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="selected-brand-represented-in-the-showroom">
+                            <div
+                                class="selected-brand-represented-in-the-showroom__box-1"
+                            >
+                                <div
+                                    class="selected-brand-represented-in-the-showroom__box-11"
+                                >
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="selected-brand-represented-in-the-showroom__item-img selected-brand-represented-in-the-showroom__item-img_active"
+                                    />
+                                </div>
+                                <div
+                                    class="selected-brand-represented-in-the-showroom__box-12"
+                                >
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="selected-brand-represented-in-the-showroom__item-img"
+                                    />
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="selected-brand-represented-in-the-showroom__item-img"
+                                    />
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="selected-brand-represented-in-the-showroom__item-img"
+                                    />
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="selected-brand-represented-in-the-showroom__item-img"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="selected-brand-represented-in-the-showroom__box-2"
+                            >
+                                <div
+                                    class="selected-brand-represented-in-the-showroom__box-21"
+                                >
+                                    <div
+                                        class="brands-represented-in-the-showroom__item"
+                                    >
+                                        <img
+                                            src="assets/icons/brand-1.svg"
+                                            alt=""
+                                            class="brands-represented-in-the-showroom__item-icon"
+                                        />
+                                    </div>
+
+                                    <h3
+                                        class="selected-brand-represented-in-the-showroom__title"
+                                    >
+                                        GESSI
+                                    </h3>
+                                    <div
+                                        class="selected-brands-represented-in-the-showroom__box-211"
+                                    >
+                                        <p
+                                            class="selected-brand-represented-in-the-showroom__text"
+                                        >
+                                            Lorem ipsum dolor, sit amet
+                                            consectetur adipisicing elit. In
+                                            quae ratione consequuntur
+                                            dignissimos nemo odio a ipsam
+                                            delectus voluptatibus nisi.
+                                        </p>
+                                        <p
+                                            class="selected-brand-represented-in-the-showroom__text"
+                                        >
+                                            Lorem ipsum dolor sit, amet
+                                            consectetur adipisicing elit. Dolor,
+                                            voluptatibus.
+                                        </p>
+                                        <p
+                                            class="selected-brand-represented-in-the-showroom__text"
+                                        >
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Blanditiis aliquid consectetur ea
+                                            accusantium. Voluptas, quas!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <a
+                                    href="#"
+                                    class="selected-brand-represented-in-the-showroom__link"
+                                    >Перейти к странице бренда</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="gallery">
+                    <div class="container">
+                        <h2 class="gallery__title title">Галерея</h2>
+
+                        <div class="gallery__box-1">
+                            <div class="gallery__box-11">
+                                <img
+                                    src="assets/images/image-1.jpg"
+                                    alt=""
+                                    class="gallery__item-img"
+                                />
+                            </div>
+                            <div class="gallery__box-12">
+                                <div class="gallery__box-121">
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="gallery__item-img"
+                                    />
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="gallery__item-img"
+                                    />
+                                </div>
+                                <div class="gallery__box-122">
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="gallery__item-img"
+                                    />
+                                    <img
+                                        src="assets/images/image-1.jpg"
+                                        alt=""
+                                        class="gallery__item-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="main__box-2">
+                    <section class="map">
+                        <!-- <h2 class="hidden">Карта</h2> -->
+                        <div class="map__box-1">
+                            <img
+                                src="assets/images/building.jpg"
+                                alt="Building"
+                                class="map__building-img"
+                            />
+                            <div id="map" class="map__map"></div>
+                        </div>
+                    </section>
+                    <section class="subscribe-to-the-newsletter">
+                        <div class="container">
+                            <div class="subscribe-to-the-newsletter__inner">
+                                <div class="subscribe-to-the-newsletter__box-1">
+                                    <svg
+                                        class="subscribe-to-the-newsletter__icon icon icon_l"
+                                    >
+                                        <use
+                                            href="assets/icons/icons.svg#dog-sign"
+                                        />
+                                    </svg>
+                                    <div
+                                        class="subscribe-to-the-newsletter__box-11"
+                                    >
+                                        <p
+                                            class="subscribe-to-the-newsletter__title"
+                                        >
+                                            Подпишитесь на рассылку
+                                        </p>
+                                        <p
+                                            class="subscribe-to-the-newsletter__subtitle"
+                                        >
+                                            Узнавай о новых поступлениях, акциях
+                                            и скидках
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="subscribe-to-the-newsletter__box-2">
+                                    <div
+                                        class="custom-input custom-input_subscribe"
+                                    >
+                                        <input
+                                            type="text"
+                                            class="custom-input__input"
+                                            placeholder="Введите ваш e-mail"
+                                        />
+                                        <img
+                                            src="assets/icons/send.svg"
+                                            alt="Send"
+                                            class="custom-input__icon icon icon_m"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+
+            <footer class="container footer">
+                <div class="footer__box-1">
+                    <div class="footer__box-11">
+                        <a href="#" class="logo"
+                            ><img
+                                src="assets/icons/logo.svg"
+                                alt="Logo"
+                                class="logo__icon"
+                        /></a>
+                        <p class="footer__logo-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Aliquid, suscipit?
+                        </p>
+                    </div>
+                    <div class="footer-socials">
+                        <ul class="footer-socials__ul">
+                            <li class="footer-socials__item">
+                                <a href="#" class="footer-socials__link">
+                                    <svg
+                                        class="footer-socials__icon icon icon_m"
+                                    >
+                                        <use href="assets/icons/icons.svg#vk" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-socials__item">
+                                <a href="#" class="footer-socials__link">
+                                    <svg
+                                        class="footer-socials__icon icon icon_m"
+                                    >
+                                        <use
+                                            href="assets/icons/icons.svg#youtube"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-socials__item">
+                                <a href="#" class="footer-socials__link">
+                                    <svg
+                                        class="footer-socials__icon icon icon_m"
+                                    >
+                                        <use
+                                            href="assets/icons/icons.svg#yandex"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
                 <nav class="nav">
                     <ul class="nav__ul">
                         <li class="nav__item">
                             <a
-                                href="#"
+                                href="showroom.html"
                                 class="nav__item-link nav__item-link_btn"
                                 >Шоурум</a
                             >
                         </li>
                         <li class="nav__item">
                             <a
-                                href="#"
+                                href="catalog.html"
                                 class="nav__item-link nav__item-link_btn"
                                 >Каталог</a
                             >
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__item-link">Бренды</a>
+                            <a href="brands.html" class="nav__item-link"
+                                >Бренды</a
+                            >
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__item-link">Доставка</a>
                         </li>
                     </ul>
                 </nav>
-            </div>
-            <div class="header__box-2">
-                <div class="custom-input">
-                    <input
-                        type="text"
-                        class="custom-input__input"
-                        placeholder="Что вы хотите найти?"
-                    />
-                    <!-- icon of searching here -->
-                </div>
-                <!-- profile -->
-                <a href="#" class="">
-                    <!-- icon of user here -->
-                </a>
-                <!-- basket -->
-                <a href="#" class="">
-                    <!-- icon of basket here -->
-                </a>
-                <!-- where are we -->
-                <a href="#">
-                    <!-- icon of where are we -->
-                    Где мы?
-                </a>
-                <!-- phone number -->
-                <a href="#"> 8-495-174-70-44 </a>
-                <!-- socials -->
-                <div class="">
-                    <!-- telegram -->
-                    <a href="#">
-                        <!-- telegram icon here -->
-                    </a>
-                    <!-- whatsapp -->
-                    <a href="#">
-                        <!-- telegram icon here -->
-                    </a>
-                </div>
-            </div>
-        </header>
 
-        <main class="main">
-            <section class="promo">
-                <h2 class="hidden">Промо</h2>
-                <div class="">
-                    <div class="__item">
-                        <div class="">
-                            <p>Ванны AXOR<br />С бесплатной доставкой</p>
-                        </div>
+                <div class="footer-contacts">
+                    <div class="footer-contacts__item">
+                        <!-- <svg class="footer-contacts__item-icon icon icon_m">
+                            <use href="assets/icons/icons.svg#phone" />
+                        </svg> -->
                         <img
-                            src="assets/images/image-1.jpg"
-                            alt=""
-                            class="__item-img"
+                            src="assets/icons/phone.svg"
+                            alt="Phone"
+                            class="footer-contacts__item-icon icon icon_m"
                         />
-                    </div>
-                </div>
-            </section>
-            <section class="advantages">
-                <h2 class="hidden">Преимущества</h2>
-
-                <div class="">
-                    <div class="__item">
-                        <!-- icon of advantage here -->
-                        <p>36</p>
-                        <p>брендов сантехники и аксессуаров</p>
-                    </div>
-                    <div class="__item">
-                        <!-- icon of advantage here -->
-                        <p>100 000</p>
-                        <p>товаров в наличии</p>
-                    </div>
-                    <div class="__item">
-                        <!-- icon of advantage here -->
-                        <p>100 000</p>
-                        <p>товаров в наличии</p>
-                    </div>
-                    <div class="__item">
-                        <!-- icon of advantage here -->
-                        <p>100 000</p>
-                        <p>товаров в наличии</p>
-                    </div>
-                </div>
-            </section>
-            <section class="popular-categories">
-                <h2>Популярные категории</h2>
-
-                <!-- popular categories -->
-                <div class="">
-                    <!-- 1 row -->
-                    <div class="">
-                        <div class="__item">
-                            <h3>Смесители</h3>
-                            <img
-                                src="assets/images/faucets.png"
-                                alt="Смесители"
-                            />
+                        <div class="footer-contacts__item-box-1">
+                            <a
+                                href="tel:84951747044"
+                                class="footer-contacts__item-text footer-contacts__item-text_accent"
+                                >8-495-174-70-44</a
+                            >
+                            <a
+                                href="mailto:info@santop-expo.ru"
+                                class="footer-contacts__item-text"
+                                >info@santop-expo.ru</a
+                            >
                         </div>
-                        <div class="__item">
-                            <h3>Смесители</h3>
-                            <img
-                                src="assets/images/faucets.png"
-                                alt="Смесители"
-                            />
+                    </div>
+                    <div class="footer-contacts__item">
+                        <img
+                            src="assets/icons/map-marker.svg"
+                            alt="Map marker"
+                            class="footer-contacts__item-icon icon icon_m"
+                        />
+                        <div class="footer-contacts__item-box-1">
+                            <span
+                                class="footer-contacts__item-text footer-contacts__item-text_accent"
+                                >Наш адрес:</span
+                            >
+                            <span class="footer-contacts__item-text"
+                                >Долгопрудный, Лихачевский проезд,<br />10аС2</span
+                            >
                         </div>
-                        <div class="__item">
-                            <h3>Смесители</h3>
-                            <img
-                                src="assets/images/faucets.png"
-                                alt="Смесители"
-                            />
-                        </div>
-                        <div class="__item">
-                            <h3>Смесители</h3>
-                            <img
-                                src="assets/images/faucets.png"
-                                alt="Смесители"
-                            />
+                    </div>
+                    <div class="footer-contacts__item">
+                        <img
+                            src="assets/icons/calendar.svg"
+                            alt="Calendar"
+                            class="footer-contacts__item-icon icon icon_m"
+                        />
+                        <div class="footer-contacts__item-box-1">
+                            <span
+                                class="footer-contacts__item-text footer-contacts__item-text_accent"
+                                >График работы:</span
+                            >
+                            <span class="footer-contacts__item-text"
+                                >Будни 9:00 - 18:00,<br />Выходные 10:00 -
+                                18:00</span
+                            >
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="promotions-of-the-month">
-                <h2>Акции месяца</h2>
-            </section>
-            <section class="goods-in-the-showroom">
-                <h2>Товары в шоуруме</h2>
-            </section>
-            <section class="brands">
-                <h2>Бренды</h2>
-            </section>
-            <section class="video-blog">
-                <h2>Видеоблог</h2>
-                <p>
-                    Захватывающие видео с высоты птичьего полета, путешествие
-                    сквозь шоурум, атмосферные обзоры выставочных образцов от
-                    блогеров.
-                </p>
-            </section>
-            <section class="map">
-                <h2 class="hidden">Карта</h2>
-                <!-- map here -->
-            </section>
-            <div class="subscribe-to-the-newsletter">
-                <!-- icon here -->
-                <div class="">
-                    <p>Подпишитесь на рассылку</p>
-                    <p>Узнавай о новых поступлениях, акциях и скидках</p>
-                </div>
-
-                <!-- custom input 2 -->
-                <div class="custom-input custom-input_subscribe">
-                    <input type="text" placeholder="Введите ваш e-mail" />
-                    <!-- icon here -->
-                </div>
-            </div>
-        </main>
-
-        <footer class="footer">
-            <div class="">
-                <div class="">
-                    <a href="#" class="logo">Logo</a>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Aliquid, suscipit?
-                    </p>
-                </div>
-                <div class="">
-                    <ul>
-                        <!-- vk -->
-                        <li>
-                            <a href="#">
-                                <!-- vk icon -->
-                            </a>
-                        </li>
-                        <!-- youtube -->
-                        <li>
-                            <a href="#">
-                                <!-- youtube icon -->
-                            </a>
-                        </li>
-                        <!-- yandex -->
-                        <li>
-                            <a href="#">
-                                <!-- yandex icon -->
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <nav class="nav">
-                <ul class="nav__ul">
-                    <li class="nav__item">
-                        <a href="#" class="nav__item-link nav__item-link_btn"
-                            >Шоурум</a
-                        >
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__item-link nav__item-link_btn"
-                            >Каталог</a
-                        >
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__item-link">Бренды</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__item-link">Доставка</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- contacts -->
-            <div class="">
-                <div class="">
-                    <!-- icon of phone number -->
-                    <a href="#">8-495-174-70-44</a>
-                    <span>info@santop-expo.ru</span>
-                </div>
-                <div class="">
-                    <!-- icon of map -->
-                    <span>Наш адрес:</span>
-                    <span>Долгопрудный, Лихачевский проезд,<br />10аС2</span>
-                </div>
-                <div class="">
-                    <!-- icon of calendar -->
-                    <span>График работы:</span>
-                    <span>Будни 9:00 - 18:00,<br />Выходные 10:00 - 18:00</span>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
 
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/map.js"></script>
+        <script src="assets/js/slider.js"></script>
     </body>
 </html>

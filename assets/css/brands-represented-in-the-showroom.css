@@ -1,0 +1,95 @@
+.brands-represented-in-the-showroom__box-1 {
+    margin-top: 3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.brands-represented-in-the-showroom__item {
+    padding: 1rem;
+
+    display: flex;
+    flex-shrink: 0;
+
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+
+    cursor: pointer;
+}
+
+.brands-represented-in-the-showroom__item:first-of-type {
+    border-radius: var(--border-radius_m) 0 0 var(--border-radius_m);
+}
+
+.brands-represented-in-the-showroom__item:last-of-type {
+    border-right: 1px solid var(--border-color);
+    border-radius: 0 var(--border-radius_m) var(--border-radius_m) 0;
+}
+
+.selected-brand-represented-in-the-showroom {
+    margin-top: 3rem;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    column-gap: 2rem;
+
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius_m);
+}
+
+.selected-brand-represented-in-the-showroom__box-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-brand-represented-in-the-showroom__box-12 {
+    display: flex;
+}
+
+.selected-brand-represented-in-the-showroom__box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.selected-brand-represented-in-the-showroom__box-21 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.selected-brands-represented-in-the-showroom__box-211 {
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.selected-brand-represented-in-the-showroom__item-img {
+    height: 5.5rem;
+
+    display: flex;
+    flex-shrink: 0;
+
+    border: 1px solid var(--border-color);
+}
+
+.selected-brand-represented-in-the-showroom__item-img.selected-brand-represented-in-the-showroom__item-img_active {
+    width: 100%;
+    height: 100%;
+}
+
+.selected-brand-represented-in-the-showroom__title {
+    margin-top: 2rem;
+
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.selected-brand-represented-in-the-showroom__link {
+    text-decoration: underline;
+}
