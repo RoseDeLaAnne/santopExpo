@@ -1,0 +1,80 @@
+/* header */
+
+.header {
+    display: none;
+}
+
+/* section.promo */
+
+.promo {
+    display: none;
+}
+
+/* section.advantages */
+
+.advantages__box-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* section.popular-categories */
+
+.popular-categories__box-1 {
+    /*  */
+}
+
+/* section.promotions-of-the-month */
+
+.promotions-of-the-month__box-1 {
+    /*  */
+}
+
+/* brands */
+
+.brands__box-1 {
+    flex-direction: column;
+}
+
+/* video-blog */
+
+.video-blog__box-2 {
+    display: flex;
+}
+
+.video-blog__box-22 {
+    display: none;
+}
+
+.video-blog__box-4 {
+    flex-direction: column;
+}
+
+/* map */
+
+.map__building-img {
+    display: none;
+}
+
+/* subscribe-to-the-newsletter */
+
+.subscribe-to-the-newsletter__inner {
+    flex-direction: column;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.footer__box-1 {
+    row-gap: 2rem;
+}
+
+.footer .nav__ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
