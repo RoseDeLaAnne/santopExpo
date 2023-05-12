@@ -40,3 +40,11 @@
     align-items: center;
     column-gap: 1rem;
 }
+
+.header-socials__link:hover .header-socials__icon {
+    fill: rgba(0, 0, 0, .5)
+}
+
+.header-socials__icon {
+    transition: fill .5s ease-in-out;
+}

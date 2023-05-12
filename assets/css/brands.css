@@ -1,14 +1,20 @@
 .brands__box-1 {
     margin-top: 3rem;
 
+    position: relative;
+}
+
+.brands__box-11 {
     display: flex;
 
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+
+    scroll-behavior: smooth;
 }
 
-.brands__box-1::-webkit-scrollbar {
+.brands__box-11::-webkit-scrollbar {
     display: none;
 }
 
@@ -18,9 +24,12 @@
     display: flex;
     flex-shrink: 0;
 
-    border-top: 1px solid var(--border-color);
+    /* border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
-    border-left: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color); */
+    border: 1px solid var(--border-color);
+
+    transition: border .5s ease-in-out;
 }
 
 .brands__item:first-of-type {
@@ -30,6 +39,10 @@
 .brands__item:last-of-type {
     border-right: 1px solid var(--border-color);
     border-radius: 0 var(--border-radius_m) var(--border-radius_m) 0;
+}
+
+.brands__item:hover {
+    border: 1px solid #000;
 }
 
 .brands__item-icon {

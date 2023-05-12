@@ -13,7 +13,13 @@
 }
 
 .popular-categories__item {
-    border: 1px solid var(--border-color)
+    border: 1px solid var(--border-color);
+
+    transition: border .5s ease-in-out;
+}
+
+.popular-categories__item:hover {
+    border: 1px solid #000;
 }
 
 .popular-categories__box-12 {
@@ -40,6 +46,8 @@
     padding-right: 2rem;
     padding-left: 2rem;
 
+    position: relative;
+
     display: flex;
     flex-direction: column;
 }
@@ -49,9 +57,11 @@
 }
 
 .popular-categories__item-img {
-    width: 4rem;
-    height: 4rem;
+    position: absolute;
 
-    display: none;
+    right: 1rem;
+    bottom: 1rem;
+    
+    width: 70%;
+    height: 70%;
 }
-

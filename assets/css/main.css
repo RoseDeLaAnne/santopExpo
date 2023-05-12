@@ -3,7 +3,7 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    
+
     max-width: 1600px;
 }
 
@@ -47,31 +47,68 @@
     align-items: center;
     justify-content: center;
 
+    background-color: var(--background-color);
     box-shadow: var(--box-shadow);
 
     border-radius: var(--border-radius_s);
+    transition: box-shadow 0.5s ease-in-out;
 }
+
+.user:hover,
+.basket:hover {
+    box-shadow: var(--box-shadow_active);
+}
+
+/* .user:hover .user__icon,
+.basket:hover .basket__icon {
+    fill: rgba(0, 0, 0, .5);
+} */
+
+/* .user__icon,
+.basket__icon {
+    transition: fill .5s ease-in-out;
+} */
 
 /* where-are-we */
 
 .where-are-we {
     display: flex;
     align-items: center;
-    column-gap: .5rem;
+    column-gap: 0.5rem;
 
     font-weight: 500;
 
     color: var(--accent-color);
 }
 
+.where-are-we span {
+    transition: color 0.5s ease-in-out;
+}
+
+.where-are-we:hover span {
+    color: rgba(10, 78, 183, 0.75);
+}
+
+.where-are-we:hover .where-are-we__icon {
+    fill: rgba(10, 78, 183, 0.75);
+}
+
 .where-are-we__icon {
     fill: var(--accent-color);
+
+    transition: fill 0.5s ease-in-out;
 }
 
 /* phone-number */
 
 .phone-number {
     font-weight: 600;
+
+    transition: opacity .5s ease-in-out;
+}
+
+.phone-number:hover {
+    opacity: .75;
 }
 
 /* icon */

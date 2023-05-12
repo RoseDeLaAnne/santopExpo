@@ -1,0 +1,45 @@
+.swipe {
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+
+    border-radius: var(--border-radius_s);
+
+    transition: background-color 0.5s ease-in-out;
+
+    cursor: pointer;
+
+    z-index: 100;
+}
+
+.swipe.swipe_promo.swipe_left,
+.swipe.swipe_goods.swipe_left,
+.swipe.swipe_brands.swipe_left {
+    position: absolute;
+
+    top: 50%;
+    left: -3rem;
+
+    transform: translate(1.5rem, -50%);
+}
+
+.swipe.swipe_promo.swipe_right,
+.swipe.swipe_goods.swipe_right,
+.swipe.swipe_brands.swipe_right {
+    position: absolute;
+
+    top: 50%;
+    right: 3rem;
+
+    transform: translate(4.5rem, -50%);
+}
+
+.swipe:hover {
+    background-color: #e5e5e5;
+}

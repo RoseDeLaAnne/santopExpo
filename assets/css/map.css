@@ -18,5 +18,13 @@
 
     border-radius: var(--border-radius_m);
 
+    box-shadow: var(--box-shadow);
+
+    transition: box-shadow 0.5s ease-in-out;
+
     z-index: 1;
+}
+
+.map__building-img:hover {
+    box-shadow: var(--box-shadow_active);
 }
