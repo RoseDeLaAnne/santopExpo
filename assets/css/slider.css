@@ -44,7 +44,8 @@
     flex-direction: column;
     row-gap: 0.25em;
 
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: calc(16px + (32 - 16) * (100vw - 320px) / (1920 - 320));
     font-weight: 600;
 
     text-transform: uppercase;
@@ -56,10 +57,11 @@
 }
 
 .slider__item-img {
-    width: 1600px;
-    height: 768px;
+    width: calc(100vw - 160px * 2);
+    /* width: 1600px; */
+    /* height: 768px; */
 
-    /* aspect-ratio: 16 / 9; */
+    aspect-ratio: 16 / 9;
 
     box-shadow: var(--box-shadow);
 

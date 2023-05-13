@@ -4,7 +4,8 @@
 
 .map__map {
     width: 100%;
-    height: 32rem;
+    /* height: 32rem; */
+    height: calc(384px + (512 - 384) * (100vw - 320px) / (1920 - 320));
 }
 
 .map__building-img {

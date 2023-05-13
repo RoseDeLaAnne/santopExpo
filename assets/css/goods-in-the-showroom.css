@@ -1,5 +1,6 @@
 .goods-in-the-showroom__box-1 {
-    margin-top: 3rem;
+    margin-top: calc(32px + (48 - 32) * (100vw - 320px) / (1920 - 320));
+    /* margin-top: 3rem; */
 
     position: relative;
 }

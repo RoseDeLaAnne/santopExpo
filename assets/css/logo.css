@@ -1,3 +1,4 @@
 .logo__icon {
-    height: 2rem;
+    /* height: 2rem; */
+    height: calc(24px + (32 - 24) * (100vw - 320px) / (1920 - 320));
 }

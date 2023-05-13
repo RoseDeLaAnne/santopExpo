@@ -1,64 +1,87 @@
+/* container */
+
+.container {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+
+    max-width: none;
+    width: auto;
+}
+
+/* main */
+
+.main {
+    row-gap: 4rem;
+}
+
+/* icon */
+
+/* .icon.icon_m {
+
+} */
+
+/* btn */
+
+.btn {
+    font-size: 0.75rem;
+}
+
+/* custom-input */
+
+.custom-input.custom-input_subscribe .custom-input__input {
+    min-width: auto;
+    width: 100%;
+}
+
+.custom-input.custom-input_subscribe {
+    width: 100%;
+}
+
+/* slider */
+
+.slider {
+    /* margin-right: 1.25rem; */
+    /* margin-left: 1.25rem; */
+    padding: 0;
+}
+
+.slider__item-img {
+    width: calc(100vw - 20px);
+    height: 100%;
+}
+
+/* card-slider */
+
+.card-slider {
+    /* display: none; */
+}
+
+/* swipe */
+
+.swipe {
+    display: none;
+}
+
 /* header */
 
 .header {
+    width: auto;
+}
+
+.header .nav,
+.header__box-2 {
     display: none;
 }
 
-/* section.promo */
+.header__box-1 {
+    width: 100%;
 
-.promo {
-    display: none;
+    justify-content: space-between;
 }
 
-/* section.advantages */
-
-.advantages__box-1 {
-    display: flex;
-    flex-direction: column;
-}
-
-/* section.popular-categories */
-
-.popular-categories__box-1 {
-    /*  */
-}
-
-/* section.promotions-of-the-month */
-
-.promotions-of-the-month__box-1 {
-    /*  */
-}
-
-/* brands */
-
-.brands__box-1 {
-    flex-direction: column;
-}
-
-/* video-blog */
-
-.video-blog__box-2 {
-    display: flex;
-}
-
-.video-blog__box-22 {
-    display: none;
-}
-
-.video-blog__box-4 {
-    flex-direction: column;
-}
-
-/* map */
-
-.map__building-img {
-    display: none;
-}
-
-/* subscribe-to-the-newsletter */
-
-.subscribe-to-the-newsletter__inner {
-    flex-direction: column;
+.header .menu,
+.header .call {
+    display: block;
 }
 
 /* footer */
@@ -66,7 +89,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 2.5rem;
 }
 
 .footer__box-1 {
@@ -77,4 +100,208 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+}
+
+/* section.promo */
+
+.promo {
+    /* display: none; */
+}
+
+/* section.advantages */
+
+.advantages__box-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__item {
+    min-height: 6.625rem;
+}
+
+.advantages__item:first-of-type {
+    border-radius: var(--border-radius_m) var(--border-radius_m) 0 0;
+}
+
+.advantages__item:last-of-type {
+    border-radius: 0 0 var(--border-radius_m) var(--border-radius_m);
+}
+
+.advantages__item:hover {
+    border: 1px solid #000;
+}
+
+/* section.popular-categories */
+
+.popular-categories__box-1 {
+    /* display: none; */
+}
+
+.popular-categories__box-11 {
+    min-height: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.popular-categories__box-11 .popular-categories__item:first-child {
+    border-radius: var(--border-radius_m) 0 0 0;
+}
+
+.popular-categories__box-11 .popular-categories__item:nth-child(2) {
+    border-radius: 0 var(--border-radius_m) 0 0;
+}
+
+.popular-categories__box-12 {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-categories__box-121 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.popular-categories__box-122 .popular-categories__item:last-child {
+    border-radius: 0 0 var(--border-radius_m) 0;
+}
+
+.popular-categories__box-122 .popular-categories__item:nth-last-child(2) {
+    border-radius: 0 0 0 var(--border-radius_m);
+}
+
+.popular-categories__item {
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    min-height: 14rem;
+
+    cursor: pointer;
+}
+
+.popular-categories__item-img {
+    right: 0.75rem;
+    bottom: 0.75rem;
+}
+
+/* section.promotions-of-the-month */
+
+.promotions-of-the-month__box-1 {
+    /*  */
+}
+
+/* section.brands */
+
+.brands__box-1 {
+    flex-direction: column;
+}
+
+/* section.video-blog */
+
+.video-blog__box-2 {
+    display: flex;
+}
+
+.video-blog__box-21 {
+    width: 100%;
+}
+
+.video-blog__box-21 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-blog__box-22 {
+    display: none;
+}
+
+.video-blog__box-4 {
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.video-blog__btn {
+    min-width: auto;
+}
+
+/* section.map */
+
+.map__building-img {
+    display: none;
+}
+
+/* subscribe-to-the-newsletter */
+
+.subscribe-to-the-newsletter__inner {
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.subscribe-to-the-newsletter__box-11 {
+    row-gap: .25rem;
+}
+
+.subscribe-to-the-newsletter__box-2 {
+    width: 100%;
+}
+
+/* cards */
+
+.cards {
+    padding: 0;
+}
+
+.cards__item-box-12 {
+    padding: 0.625rem 0.5rem;
+}
+
+.cards__item {
+    min-width: 9rem;
+    width: 9rem;
+}
+
+.cards__item:hover {
+    transform: scale(1);
+}
+
+.cards__item:first-of-type {
+    border-radius: var(--border-radius_xs) 0 0 var(--border-radius_xs);
+}
+
+.cards__item:first-of-type .cards__item-img {
+    border-radius: var(--border-radius_xs) 0 0 0;
+}
+
+.cards__item:first-of-type .cards__item-btn {
+    border-radius: 0 0 0 var(--border-radius_xs);
+}
+
+.cards__item:last-of-type {
+    /* border-right: 1px solid var(--border-color); */
+    border-radius: 0 var(--border-radius_xs) var(--border-radius_xs) 0;
+}
+
+.cards__item:last-of-type .cards__item-img {
+    border-radius: 0 var(--border-radius_xs) 0 0;
+}
+
+.cards__item:last-of-type .cards__item-btn {
+    border-radius: 0 0 var(--border-radius_xs) 0;
+}
+
+.cards__item-goods-in-the-showroom {
+    padding: 0.25rem;
+
+    top: 0.25rem;
+    left: 0.25rem;
+
+    border-radius: var(--border-radius_xs);
+}
+
+.cards__item-name {
+    font-size: 0.75rem;
+}
+
+.cards__item-btn {
+    display: flex;
 }

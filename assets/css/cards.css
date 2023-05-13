@@ -1,4 +1,6 @@
 .cards {
+    padding: 2rem;
+
     display: flex;
 
     overflow-x: scroll;
@@ -27,7 +29,7 @@
     border-left: 1px solid var(--border-color); */
     border: 1px solid var(--border-color);
 
-    transition: border .5s ease-in-out;
+    transition: border 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .cards__item:first-of-type {
@@ -49,13 +51,18 @@
 
 .cards__item:hover {
     border: 1px solid #000;
+
+    transform: scale(1.1);
 }
 
 .cards__item-box-1 {
+}
+
+.cards__item-box-11 {
     overflow: hidden;
 }
 
-.cards__item-box-2 {
+.cards__item-box-12 {
     padding: 2rem 1.5rem;
 }
 
@@ -67,7 +74,8 @@
     top: 0.625rem;
     left: 0.625rem;
 
-    font-size: 0.625rem;
+    /* font-size: 0.625rem; */
+    font-size: calc(8px + (10 - 8) * (100vw - 320px) / (1920 - 320));
     font-weight: 500;
 
     color: var(--secondary-color);
@@ -77,20 +85,21 @@
 
     border-radius: var(--border-radius_s);
 
-    transition: background-color .5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 
     z-index: 100;
 }
 
 .cards__item-goods-in-the-showroom:hover {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .cards__item-img {
     width: 100%;
-    height: 16rem;
-    
-    transition: transform .25s ease-in-out;
+    /* height: 16rem; */
+    height: calc(96px + (256 - 96) * (100vw - 320px) / (1920 - 320));
+
+    transition: transform 0.25s ease-in-out;
 }
 
 .cards__item-img:hover {
@@ -98,6 +107,7 @@
 }
 
 .cards__item-name {
+    font-size: calc(12px + (16 - 12) * (100vw - 320px) / (1920 - 320));
     font-weight: 600;
 }
 
@@ -110,7 +120,8 @@
     display: flex;
     align-items: center;
 
-    font-size: 0.75rem;
+    /* font-size: 0.75rem; */
+    font-size: calc(10px + (12 - 10) * (100vw - 320px) / (1920 - 320));
     font-weight: 500;
 
     color: var(--accent-color);
@@ -121,8 +132,10 @@
 
     margin-right: 0.5em;
 
-    width: 0.25rem;
-    height: 0.25rem;
+    /* width: 0.25rem; */
+    /* height: 0.25rem; */
+    width: calc(2px + (4 - 2) * (100vw - 320px) / (1920 - 320));
+    height: calc(2px + (4 - 2) * (100vw - 320px) / (1920 - 320));
 
     background-color: var(--accent-color);
 
@@ -130,5 +143,24 @@
 }
 
 .cards__item-price {
+    font-size: calc(12px + (16 - 12) * (100vw - 320px) / (1920 - 320));
     font-weight: 600;
+}
+
+.cards__item-btn {
+    padding: 0.625rem;
+
+    display: none;
+    justify-content: center;
+
+    font-size: calc(8px + (12 - 8) * (100vw - 320px) / (1920 - 320));
+
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+
+    transition: opacity 0.25s ease-in-out;
+}
+
+.cards__item-btn:hover {
+    opacity: 0.75;
 }
