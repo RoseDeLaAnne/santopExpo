@@ -50,6 +50,26 @@
         />
         <link
             rel="stylesheet"
+            href="assets/css/media/desktop-m.css"
+            media="(max-width: 1600px)"
+        />
+        <link
+            rel="stylesheet"
+            href="assets/css/media/laptop.css"
+            media="(max-width: 1440px)"
+        />
+        <link
+            rel="stylesheet"
+            href="assets/css/media/laptop-2.css"
+            media="(max-width: 1200px)"
+        />
+        <link
+            rel="stylesheet"
+            href="assets/css/media/laptop-m.css"
+            media="(max-width: 1000px)"
+        />
+        <link
+            rel="stylesheet"
             href="assets/css/media/tablet.css"
             media="(max-width: 768px)"
         />
@@ -78,7 +98,70 @@
                     </svg>
                 </div>
 
-                <div class="menu-content__inner"></div>
+                <div class="menu-content__inner">
+                    <div class="custom-input custom-input_search">
+                        <input
+                            type="text"
+                            class="custom-input__input"
+                            placeholder="Что вы хотите найти?"
+                        />
+                        <button class="custom-input__button">
+                            <svg class="custom-input__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#magnifier" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <nav class="nav">
+                        <ul class="nav__ul">
+                            <li class="nav__item">
+                                <a
+                                    href="showroom.html"
+                                    class="nav__item-link btn btn_primary"
+                                >
+                                    Шоурум
+                                    <svg class="nav__item-icon icon icon_s">
+                                        <use
+                                            href="assets/icons/icons.svg#showroom"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="catalog.html"
+                                    class="nav__item-link btn btn_accent"
+                                >
+                                    Каталог
+                                    <svg class="nav__item-icon icon icon_s">
+                                        <use
+                                            href="assets/icons/icons.svg#catalog"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="brands.html" class="nav__item-link"
+                                    >Бренды</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item-link">Доставка</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <a href="#" class="user">
+                        <svg class="user__icon icon icon_m">
+                            <use href="assets/icons/icons.svg#user" />
+                        </svg>
+                    </a>
+                    <a href="#" class="basket">
+                        <svg class="basket__icon icon icon_m">
+                            <use href="assets/icons/icons.svg#basket" />
+                        </svg>
+                    </a>
+                </div>
             </div>
 
             <header class="header">
@@ -91,16 +174,36 @@
                                 />
                             </svg>
                         </div>
-                        <a href="#" class="logo">
-                            <img
-                                src="assets/icons/logo.svg"
-                                alt="Logo"
-                                class="logo__icon"
-                        /></a>
-                        <div class="call">
-                            <svg class="call__icon icon icon_l">
-                                <use href="assets/icons/icons.svg#phone" />
-                            </svg>
+                        <div class="header__box-11">
+                            <a href="#" class="logo">
+                                <img
+                                    src="assets/icons/logo.svg"
+                                    alt="Logo"
+                                    class="logo__icon"
+                            /></a>
+                        </div>
+                        <div class="header__box-111">
+                            <div class="call">
+                                <svg class="call__icon icon icon_l">
+                                    <use href="assets/icons/icons.svg#phone" />
+                                </svg>
+                            </div>
+                            <!-- <div class="header__box-1111">
+                                <a href="#" class="user">
+                                    <svg class="user__icon icon icon_m">
+                                        <use
+                                            href="assets/icons/icons.svg#user"
+                                        />
+                                    </svg>
+                                </a>
+                                <a href="#" class="basket">
+                                    <svg class="basket__icon icon icon_m">
+                                        <use
+                                            href="assets/icons/icons.svg#basket"
+                                        />
+                                    </svg>
+                                </a>
+                            </div> -->
                         </div>
                         <nav class="nav">
                             <ul class="nav__ul">

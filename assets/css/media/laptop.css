@@ -1,0 +1,49 @@
+/* container */
+
+/* .container {
+    padding-right: 80px;
+    padding-left: 80px;
+} */
+
+/* slider */
+
+/* .slider {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.slider__item-img {
+    width: calc(100vw - 80px * 2);
+} */
+
+/* main */
+
+.main {
+    margin-top: var(--header__height_mobile);
+
+    row-gap: 4rem;
+}
+
+/* header */
+
+.header {
+    padding-right: 40px;
+    padding-left: 40px;
+
+    height: var(--header__height_mobile);
+}
+
+.header__box-1 {
+    column-gap: 1rem;
+}
+
+/* custom-input */
+
+.custom-input__input {
+    min-width: 15rem;
+}
+
+.custom-input.custom-input_search:focus .custom-input__input,
+.custom-input.custom-input_search:hover .custom-input__input {
+    min-width: 15rem;
+}
