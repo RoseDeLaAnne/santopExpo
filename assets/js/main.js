@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let cardSliderItemActive = 0;
 
-    const cards = []
+    const cards = [];
 
     // const cards = [
     //     {
@@ -226,12 +226,11 @@ document.addEventListener("DOMContentLoaded", () => {
     //         cardSliderItem[i].classList.add("card-slider__item_active");
     //     });
     // }
+    const swipesSliders = document.querySelectorAll(".swipe_slider");
+    const swipesPromo = document.querySelectorAll(".swipe_promo");
+    const swipesGoods = document.querySelectorAll(".swipe_goods");
+    const swipesBrands = document.querySelectorAll(".swipe_brands");
 
-    const swipesSliders = document.querySelectorAll('.swipe_slider')
-    const swipesPromo = document.querySelectorAll('.swipe_promo')
-    const swipesGoods = document.querySelectorAll('.swipe_goods')
-    const swipesBrands = document.querySelectorAll('.swipe_brands')
-    
     const swipesSliders_left = swipesSliders[0];
     const swipesSliders_right = swipesSliders[1];
 
@@ -245,31 +244,31 @@ document.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".slider");
     const cardPromotions = document.getElementById("cards_promo");
     const cardGoods = document.getElementById("cards_goods");
-    const brands = document.querySelector('.brands__box-11')
-    
-    swipesSliders_left.addEventListener('click', () => {
-        slider.scrollLeft -= 1630;
-    })
-    swipesSliders_right.addEventListener('click', () => {
-        slider.scrollLeft += 1630;
-    })
+    const brands = document.querySelector(".brands__box-11");
 
-    swipesPromo_left.addEventListener('click', () => {
+    swipesSliders_left.addEventListener("click", () => {
+        slider.scrollLeft -= 1630;
+    });
+    swipesSliders_right.addEventListener("click", () => {
+        slider.scrollLeft += 1630;
+    });
+
+    swipesPromo_left.addEventListener("click", () => {
         cardPromotions.scrollLeft -= 286;
-    })
-    swipesPromo_right.addEventListener('click', () => {
+    });
+    swipesPromo_right.addEventListener("click", () => {
         cardPromotions.scrollLeft += 286;
-    })
-    swipesGoods_left.addEventListener('click', () => {
+    });
+    swipesGoods_left.addEventListener("click", () => {
         cardGoods.scrollLeft -= 286;
-    })
-    swipesGoods_right.addEventListener('click', () => {
+    });
+    swipesGoods_right.addEventListener("click", () => {
         cardGoods.scrollLeft += 286;
-    })
-    swipesBrands_left.addEventListener('click', () => {
+    });
+    swipesBrands_left.addEventListener("click", () => {
         brands.scrollLeft -= 286;
-    })
-    swipesBrands_right.addEventListener('click', () => {
+    });
+    swipesBrands_right.addEventListener("click", () => {
         brands.scrollLeft += 286;
-    })
+    });
 });
