@@ -10,6 +10,8 @@
     height: 2px;
 
     background-color: var(--slider-color);
+
+    transition: background-color 0.25s ease-in-out;
 }
 
 .card-slider__item.card-slider__item_active {

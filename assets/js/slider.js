@@ -1,3 +1,3 @@
-const slider = document.querySelector(".slider");
+// const slider = document.querySelector(".slider");
 
-slider.scrollLeft = slider.scrollWidth / 3.16;
+// slider.scrollLeft = slider.scrollWidth / 3.16;

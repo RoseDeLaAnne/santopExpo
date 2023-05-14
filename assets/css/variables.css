@@ -26,6 +26,9 @@
     --border-radius_m: 0.75rem;
 
     --h2_font-size: 2.25rem;
+
+    --header__height: 96px;
+    --header__height_mobile: 80px;
 }
 
 /* @media (max-width: 4096px) {
