@@ -1,4 +1,7 @@
 .header {
+    padding-right: 64px;
+    padding-left: 64px;
+
     position: fixed;
     top: 0;
     left: 0;

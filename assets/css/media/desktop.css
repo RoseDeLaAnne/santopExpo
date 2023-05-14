@@ -4,3 +4,8 @@
 
     max-width: none;
 } */
+
+.container {
+    padding-right: 64px;
+    padding-left: 64px;
+}
