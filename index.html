@@ -91,7 +91,7 @@
         ></script>
 
         <div class="page">
-            <div class="menu-content">
+            <div class="menu-content menu-content_active">
                 <div class="menu-content__close">
                     <svg class="menu-content__close-icon">
                         <use href="assets/icons/icons.svg#telegram" />
@@ -99,17 +99,31 @@
                 </div>
 
                 <div class="menu-content__inner">
-                    <div class="custom-input custom-input_search">
-                        <input
-                            type="text"
-                            class="custom-input__input"
-                            placeholder="Что вы хотите найти?"
-                        />
-                        <button class="custom-input__button">
-                            <svg class="custom-input__icon icon icon_m">
-                                <use href="assets/icons/icons.svg#magnifier" />
+                    <div class="menu-content__box-1">
+                        <div class="custom-input custom-input_search">
+                            <input
+                                type="text"
+                                class="custom-input__input"
+                                placeholder="Что вы хотите найти?"
+                            />
+                            <button class="custom-input__button">
+                                <svg class="custom-input__icon icon icon_m">
+                                    <use
+                                        href="assets/icons/icons.svg#magnifier"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <a href="#" class="user">
+                            <svg class="user__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#user" />
                             </svg>
-                        </button>
+                        </a>
+                        <a href="#" class="basket">
+                            <svg class="basket__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#basket" />
+                            </svg>
+                        </a>
                     </div>
 
                     <nav class="nav">
@@ -151,16 +165,33 @@
                         </ul>
                     </nav>
 
-                    <a href="#" class="user">
-                        <svg class="user__icon icon icon_m">
-                            <use href="assets/icons/icons.svg#user" />
-                        </svg>
-                    </a>
-                    <a href="#" class="basket">
-                        <svg class="basket__icon icon icon_m">
-                            <use href="assets/icons/icons.svg#basket" />
-                        </svg>
-                    </a>
+                    <div class="menu-content__box-2">
+                        <a href="#" class="where-are-we">
+                            <svg class="where-are-we__icon icon icon_m">
+                                <use href="assets/icons/icons.svg#yandex" />
+                            </svg>
+                            <span>Где мы?</span>
+                        </a>
+                        <a href="tel:84951747044" class="phone-number"
+                            >8-495-174-70-44</a
+                        >
+                        <div class="header-socials">
+                            <a href="#" class="header-socials__link">
+                                <svg class="header-socials__icon icon icon_m">
+                                    <use
+                                        href="assets/icons/icons.svg#telegram"
+                                    />
+                                </svg>
+                            </a>
+                            <a href="#" class="header-socials__link">
+                                <svg class="header-socials__icon icon icon_m">
+                                    <use
+                                        href="assets/icons/icons.svg#whatsapp"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 

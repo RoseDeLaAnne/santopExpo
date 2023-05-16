@@ -21,3 +21,24 @@
 .nav__item-icon {
     fill: #fff;
 }
+
+/* menu-content */
+
+.menu-content .nav {
+    margin-bottom: 32px;
+}
+
+.menu-content .nav__ul {
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.menu-content .nav__item {
+    width: 100%;
+}
+
+.menu-content .nav__item-link {
+    justify-content: center;
+
+    color: #fff;
+}

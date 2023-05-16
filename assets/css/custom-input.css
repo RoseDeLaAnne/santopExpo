@@ -34,13 +34,13 @@
 
 .custom-input__input {
     /* padding-left: 1.5rem; */
-    padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (1920 - 320));;
+    padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (1920 - 320));
     padding-right: 3rem;
 
     min-width: 17.75rem;
     height: 3rem;
 
-    font-size: calc(14px + (16 - 14) * (100vw - 320px) / (1920 - 320));;
+    font-size: calc(14px + (16 - 14) * (100vw - 320px) / (1920 - 320));
 
     transition: min-width 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
@@ -53,4 +53,18 @@
     transform: translate(0, -50%);
 
     cursor: pointer;
+}
+
+/* menu-content */
+
+.menu-content .custom-input__input {
+    width: 100%;
+
+    background-color: #fff;
+
+    border-radius: var(--border-radius_s);
+}
+
+.menu-content .custom-input:hover .custom-input__input {
+    background-color: rgba(255, 255, 255, 0.75);
 }

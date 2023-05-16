@@ -110,6 +110,16 @@
     transition: fill 0.5s ease-in-out;
 }
 
+/* where-are-we menu-content */
+
+.menu-content .where-are-we {
+    color: #fff;
+}
+
+.menu-content .where-are-we__icon {
+    fill: #fff;
+}
+
 /* phone-number */
 
 .phone-number {
@@ -122,6 +132,12 @@
 
 .phone-number:hover {
     opacity: 0.75;
+}
+
+/* phone-number menu-content */
+
+.menu-content .phone-number {
+    color: #fff;
 }
 
 /* icon */
@@ -182,4 +198,9 @@ h2 {
 
 div {
     transition: color 0.25s ease-in-out;
+}
+
+.img {
+    width: 128px;
+    height: 128px;
 }

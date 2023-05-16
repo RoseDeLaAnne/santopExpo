@@ -1,0 +1,9 @@
+.bread-crumbs {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.bread-crumbs__link {
+    color: #8e8e8e;
+}

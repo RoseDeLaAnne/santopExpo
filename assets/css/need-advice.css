@@ -1,0 +1,30 @@
+.need-advice {
+    padding: 64px 96px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid #e9e9e9;
+    border-radius: 12px;
+}
+
+.need-advice__box-1 {
+    display: flex;
+    column-gap: 70px;
+}
+
+.need-advice__title {
+    font-size: 24px;
+    font-weight: 600;
+
+    color: #0a4eb7;
+}
+
+.need-advice__btn {
+    padding: 16px 32px;
+
+    color: #fff;
+    background-color: #0a4eb7;
+
+    border-radius: 8px;
+}

@@ -83,3 +83,14 @@
 .header-socials__icon {
     transition: fill .5s ease-in-out;
 }
+
+/* header-socials menu-content */
+
+.header-socials__icon {
+    fill: #fff;
+}
+
+.header-socials__link:hover .header-socials__icon {
+    fill: rgba(255, 255, 255, .5)
+}
+
