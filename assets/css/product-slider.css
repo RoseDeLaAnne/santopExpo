@@ -1,0 +1,9 @@
+.product-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-slider__img {
+    width: 128px;
+    height: 128px;
+}

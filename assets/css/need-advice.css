@@ -13,11 +13,19 @@
     column-gap: 70px;
 }
 
+.need-advice__box-11 {
+    position: relative;
+}
+
 .need-advice__title {
+    position: relative;
+
     font-size: 24px;
     font-weight: 600;
 
     color: #0a4eb7;
+
+    z-index: 20;
 }
 
 .need-advice__btn {
@@ -27,4 +35,15 @@
     background-color: #0a4eb7;
 
     border-radius: 8px;
+}
+
+.need-advice__question-icon {
+    position: absolute;
+    
+    top: 20%;
+    right: 20%;
+
+    transform: translate(-20%, -30%);
+
+    z-index: 10;
 }

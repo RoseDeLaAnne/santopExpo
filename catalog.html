@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="assets/css/card-slider.css" />
         <link rel="stylesheet" href="assets/css/video-slider.css" />
         <link rel="stylesheet" href="assets/css/slider.css" />
-        <link rel="stylesheet" href="assets/css/sorting1.css" />
+        <link rel="stylesheet" href="assets/css/sorting.css" />
         <link rel="stylesheet" href="assets/css/logo.css" />
         <link rel="stylesheet" href="assets/css/nav.css" />
         <link rel="stylesheet" href="assets/css/btn.css" />
@@ -222,203 +222,266 @@
                 </div>
             </header>
             <main class="main container">
-                <div class="bread-crumbs">
-                    <a href="#" class="bread-crumbs__link">Главная</a> /
-                    <a href="#" class="bread-crumbs__link">Каталог товаров</a> /
-                    <span class="breadcrumbs__current">Смесители</span>
-                </div>
-
-                <h2>Смесители</h2>
-
-                <div class="catalog">
-                    <!-- filters -->
-                    <div class="filters">
-                        <!-- filter 1 -->
-                        <div class="filters__item">
-                            <div class="">
-                                <div class="">Категории</div>
-                                <div class="">
-                                    <!-- icon of plus -->
-                                </div>
-                            </div>
-                            <!-- content of filter -->
-                            <div class="">
-                                <!-- custom checkbox -->
-                                <label> Название категории </label>
-                                <!-- custom checkbox -->
-                                <label> Название категории </label>
-                            </div>
-                        </div>
-                        <!-- filter 2 -->
-                        <div class="filters__item">
-                            <div class="">
-                                <div class="">Глубина, мм</div>
-                                <div class="">
-                                    <!-- icon of minus -->
-                                </div>
-                            </div>
-                            <!-- content of filter -->
-                            <div class="">
-                                <input type="text" placeholder="От 399" />
-                                <input type="text" placeholder="До 100 000" />
-
-                                <!-- input type range -->
-                            </div>
-                        </div>
+                <div class="main__box-1">
+                    <div class="bread-crumbs">
+                        <a href="#" class="bread-crumbs__link">Главная</a> /
+                        <a href="#" class="bread-crumbs__link"
+                            >Каталог товаров</a
+                        >
+                        /
+                        <span class="breadcrumbs__current">Смесители</span>
                     </div>
-                    <div class="sorting">
-                        <!-- sorting elements -->
-                        <div class="sorting__box-1">
-                            <div class="sorting__box-11">
-                                <div class="sorting__item">По популярности</div>
-                                <div class="sorting__item">По названию</div>
-                                <div class="sorting__item">
-                                    По цене: <span>не дорогие</span>
+
+                    <h2 class="catalog__title">Смесители</h2>
+
+                    <div class="catalog">
+                        <!-- filters -->
+                        <div class="filters">
+                            <!-- filter 1 -->
+                            <div class="filters__item">
+                                <div class="filters__item-box-1">
+                                    <div class="filters__item-title">
+                                        Категории
+                                    </div>
+                                    <svg class="filters__item-icon">
+                                        <use
+                                            href="assets/icons/icons.svg#telegram"
+                                        />
+                                    </svg>
+                                </div>
+                                <!-- content of filter -->
+                                <div class="filters-content">
+                                    <!-- custom checkbox -->
+                                    <label class="filters-content__label">
+                                        Название категории
+                                    </label>
+                                    <!-- custom checkbox -->
+                                    <label class="filters-content__label">
+                                        Название категории
+                                    </label>
                                 </div>
                             </div>
+                            <!-- filter 2 -->
+                            <div class="filters__item">
+                                <div class="filters__item-box-1">
+                                    <div class="filters__item-title">
+                                        Глубина, мм
+                                    </div>
+                                    <svg class="filters__item-icon">
+                                        <use
+                                            href="assets/icons/icons.svg#telegram"
+                                        />
+                                    </svg>
+                                </div>
+                                <!-- content of filter -->
+                                <div class="filters-content">
+                                    <input type="text" placeholder="От 399" />
+                                    <input
+                                        type="text"
+                                        placeholder="До 100 000"
+                                    />
 
-                            <!-- product presentation -->
-                            <div class="sorting__box-12">
-                                <!-- product presentation 1 -->
-                                <button></button>
-                                <!-- product presentation 2 -->
-                                <button></button>
+                                    <!-- input type range -->
+                                </div>
+                            </div>
+                            <div class="filters__item">
+                                <div class="filters__item-box-1">
+                                    <div class="filters__item-title">
+                                        Производитель
+                                    </div>
+                                    <svg class="filters__item-icon">
+                                        <use
+                                            href="assets/icons/icons.svg#telegram"
+                                        />
+                                    </svg>
+                                </div>
+                                <!-- content of filter -->
+                                <div class="filters-content">
+                                    <!-- custom checkbox -->
+                                    <label class="filters-content__label">
+                                        Название категории
+                                    </label>
+                                    <!-- custom checkbox -->
+                                    <label class="filters-content__label">
+                                        Название категории
+                                    </label>
+                                </div>
                             </div>
                         </div>
-                        <div class="cards">
-                            <div class="cards__item">
-                                <div class="cards__item-goods-in-the-showroom">
-                                    Товар в шоуруме
-                                </div>
-                                <div class="cards__item-box-1">
-                                    <div class="cards__item-box-11">
-                                        <img
-                                            src="assets/images/main-1.png"
-                                            alt="Card 1"
-                                            class="cards__item-img"
-                                        />
-                                    </div>
-                                    <div class="cards__item-box-12">
-                                        <div class="card-slider">
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item card-slider__item_active"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                        </div>
-                                        <div class="cards__item-name">
-                                            Смеситель для раковины Grohe
-                                            Eurosmart Cosmopolitan
-                                        </div>
-                                        <div class="cards__item-in-stock">
-                                            В наличии
-                                        </div>
-                                        <div class="cards__item-price">
-                                            4 590 руб.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cards__item-box-2">
-                                    <a href="#" class="cards__item-btn"
-                                        >В корзину</a
-                                    >
+                        <div class="catalog__box-1">
+                            <!-- sorting elements -->
+                            <div class="sorting">
+                                <ul class="sorting__box-1">
+                                    <li class="sorting__item">
+                                        По популярности
+                                    </li>
+                                    <li class="sorting__item">По названию</li>
+                                    <li class="sorting__item">
+                                        По цене: <span>не дорогие</span>
+                                    </li>
+                                </ul>
+
+                                <!-- product presentation -->
+                                <div class="sorting__box-2">
+                                    <!-- product presentation 1 -->
+                                    <button class="sorting__btn">
+                                        <svg class="sorting__icon">
+                                            <use
+                                                href="assets/icons/icons.svg#telegram"
+                                            />
+                                        </svg>
+                                    </button>
+                                    <!-- product presentation 2 -->
+                                    <button class="sorting__btn">
+                                        <svg class="sorting__icon">
+                                            <use
+                                                href="assets/icons/icons.svg#telegram"
+                                            />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
-                            <div class="cards__item">
-                                <div class="cards__item-goods-in-the-showroom">
-                                    Товар в шоуруме
-                                </div>
-                                <div class="cards__item-box-1">
-                                    <div class="cards__item-box-11">
-                                        <img
-                                            src="assets/images/main-1.png"
-                                            alt="Card 1"
-                                            class="cards__item-img"
-                                        />
-                                    </div>
-                                    <div class="cards__item-box-12">
-                                        <div class="card-slider">
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item card-slider__item_active"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                        </div>
-                                        <div class="cards__item-name">
-                                            Смеситель для раковины Grohe
-                                            Eurosmart Cosmopolitan
-                                        </div>
-                                        <div class="cards__item-in-stock">
-                                            В наличии
-                                        </div>
-                                        <div class="cards__item-price">
-                                            4 590 руб.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cards__item-box-2">
-                                    <a href="#" class="cards__item-btn"
-                                        >В корзину</a
+                            <div class="cards">
+                                <div class="cards__item">
+                                    <div
+                                        class="cards__item-goods-in-the-showroom"
                                     >
-                                </div>
-                            </div>
-                            <div class="cards__item">
-                                <div class="cards__item-goods-in-the-showroom">
-                                    Товар в шоуруме
-                                </div>
-                                <div class="cards__item-box-1">
-                                    <div class="cards__item-box-11">
-                                        <img
-                                            src="assets/images/main-1.png"
-                                            alt="Card 1"
-                                            class="cards__item-img"
-                                        />
+                                        Товар в шоуруме
                                     </div>
-                                    <div class="cards__item-box-12">
-                                        <div class="card-slider">
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item card-slider__item_active"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
-                                            <div
-                                                class="card-slider__item"
-                                            ></div>
+                                    <div class="cards__item-box-1">
+                                        <div class="cards__item-box-11">
+                                            <img
+                                                src="assets/images/main-1.png"
+                                                alt="Card 1"
+                                                class="cards__item-img"
+                                            />
                                         </div>
-                                        <div class="cards__item-name">
-                                            Смеситель для раковины Grohe
-                                            Eurosmart Cosmopolitan
-                                        </div>
-                                        <div class="cards__item-in-stock">
-                                            В наличии
-                                        </div>
-                                        <div class="cards__item-price">
-                                            4 590 руб.
+                                        <div class="cards__item-box-12">
+                                            <div class="card-slider">
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item card-slider__item_active"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                            </div>
+                                            <div class="cards__item-name">
+                                                Смеситель для раковины Grohe
+                                                Eurosmart Cosmopolitan
+                                            </div>
+                                            <div class="cards__item-in-stock">
+                                                В наличии
+                                            </div>
+                                            <div class="cards__item-price">
+                                                4 590 руб.
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="cards__item-box-2">
+                                        <a href="#" class="cards__item-btn"
+                                            >В корзину</a
+                                        >
+                                    </div>
                                 </div>
-                                <div class="cards__item-box-2">
-                                    <a href="#" class="cards__item-btn"
-                                        >В корзину</a
+                                <div class="cards__item">
+                                    <div
+                                        class="cards__item-goods-in-the-showroom"
                                     >
+                                        Товар в шоуруме
+                                    </div>
+                                    <div class="cards__item-box-1">
+                                        <div class="cards__item-box-11">
+                                            <img
+                                                src="assets/images/main-1.png"
+                                                alt="Card 1"
+                                                class="cards__item-img"
+                                            />
+                                        </div>
+                                        <div class="cards__item-box-12">
+                                            <div class="card-slider">
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item card-slider__item_active"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                            </div>
+                                            <div class="cards__item-name">
+                                                Смеситель для раковины Grohe
+                                                Eurosmart Cosmopolitan
+                                            </div>
+                                            <div class="cards__item-in-stock">
+                                                В наличии
+                                            </div>
+                                            <div class="cards__item-price">
+                                                4 590 руб.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cards__item-box-2">
+                                        <a href="#" class="cards__item-btn"
+                                            >В корзину</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="cards__item">
+                                    <div
+                                        class="cards__item-goods-in-the-showroom"
+                                    >
+                                        Товар в шоуруме
+                                    </div>
+                                    <div class="cards__item-box-1">
+                                        <div class="cards__item-box-11">
+                                            <img
+                                                src="assets/images/main-1.png"
+                                                alt="Card 1"
+                                                class="cards__item-img"
+                                            />
+                                        </div>
+                                        <div class="cards__item-box-12">
+                                            <div class="card-slider">
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item card-slider__item_active"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                                <div
+                                                    class="card-slider__item"
+                                                ></div>
+                                            </div>
+                                            <div class="cards__item-name">
+                                                Смеситель для раковины Grohe
+                                                Eurosmart Cosmopolitan
+                                            </div>
+                                            <div class="cards__item-in-stock">
+                                                В наличии
+                                            </div>
+                                            <div class="cards__item-price">
+                                                4 590 руб.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cards__item-box-2">
+                                        <a href="#" class="cards__item-btn"
+                                            >В корзину</a
+                                        >
+                                    </div>
                                 </div>
                             </div>
                         </div>

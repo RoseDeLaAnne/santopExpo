@@ -1,3 +1,18 @@
-.sorting__box-11 {
+.sorting {
+    margin-bottom: 32px;
+
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sorting__box-1 {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.sorting__box-2 {
+    display: flex;
+    column-gap: 16px;
 }

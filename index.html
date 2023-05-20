@@ -40,6 +40,7 @@
         <link rel="stylesheet" href="assets/css/custom-input.css" />
         <link rel="stylesheet" href="assets/css/swipe.css" />
 
+        <link rel="stylesheet" href="assets/css/modal.css" />
         <link rel="stylesheet" href="assets/css/icons.css" />
         <link rel="stylesheet" href="assets/css/menu-content.css" />
 
@@ -91,6 +92,48 @@
         ></script>
 
         <div class="page">
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="video-container">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/zQEYUv9AbH0"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="video-container">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/zQEYUv9AbH0"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="video-container">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/zQEYUv9AbH0"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="video-container">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/zQEYUv9AbH0"
+                            frameborder="0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+
             <div class="menu-content">
                 <div class="menu-content__close">
                     <svg class="menu-content__close-icon">
@@ -404,6 +447,14 @@
                                     </svg>
                                 </div>
                             </div>
+                            <div class="card-slider slider-indicator">
+                                <div class="card-slider__item"></div>
+                                <div
+                                    class="card-slider__item card-slider__item_active"
+                                ></div>
+                                <div class="card-slider__item"></div>
+                                <div class="card-slider__item"></div>
+                            </div>
                         </div>
                     </section>
                     <section class="container advantages">
@@ -413,7 +464,11 @@
 
                         <div class="advantages__box-1">
                             <div class="advantages__item">
-                                <img src="assets/icons/brands.svg" alt="" class="advantages__item-icon">
+                                <img
+                                    src="assets/icons/brands.svg"
+                                    alt=""
+                                    class="advantages__item-icon"
+                                />
                                 <div class="advantages__box-11">
                                     <p class="advantages__item-title">40+</p>
                                     <p class="advantages__item-text">
@@ -422,7 +477,11 @@
                                 </div>
                             </div>
                             <div class="advantages__item">
-                                <img src="assets/icons/goods.svg" alt="" class="advantages__item-icon">
+                                <img
+                                    src="assets/icons/goods.svg"
+                                    alt=""
+                                    class="advantages__item-icon"
+                                />
                                 <div class="advantages__box-11">
                                     <p class="advantages__item-title">
                                         100.000
@@ -433,7 +492,11 @@
                                 </div>
                             </div>
                             <div class="advantages__item">
-                                <img src="assets/icons/professionals.svg" alt="" class="advantages__item-icon">
+                                <img
+                                    src="assets/icons/professionals.svg"
+                                    alt=""
+                                    class="advantages__item-icon"
+                                />
                                 <div class="advantages__box-11">
                                     <!-- <p class="advantages__item-title">
                                         Профессионалы в подборе сантехники
@@ -444,7 +507,11 @@
                                 </div>
                             </div>
                             <div class="advantages__item">
-                                <img src="assets/icons/free-parking.svg" alt="" class="advantages__item-icon">
+                                <img
+                                    src="assets/icons/free-parking.svg"
+                                    alt=""
+                                    class="advantages__item-icon"
+                                />
                                 <div class="advantages__box-11">
                                     <!-- <p class="advantages__item-title">
                                         Бесплатная Парковка для Клиентов
@@ -983,7 +1050,10 @@
                             </div>
                         </div>
                         <div class="video-blog__box-4">
-                            <button class="video-blog__btn btn btn_primary">
+                            <button
+                                class="video-blog__btn btn btn_primary"
+                                id="openModalBtn"
+                            >
                                 Все видео
                             </button>
                             <button class="video-blog__btn btn btn_accent">
@@ -1191,6 +1261,7 @@
         </div>
 
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/modal.js"></script>
         <script src="assets/js/menu.js"></script>
         <script src="assets/js/map.js"></script>
         <script src="assets/js/slider.js"></script>
