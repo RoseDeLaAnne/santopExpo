@@ -47,4 +47,10 @@
     <symbol id="arrow_right" viewBox="0 0 16 16">
         <path fill="#1E1E1E" fill-rule="evenodd" d="M4.863 2.195a.667.667 0 0 1 .943 0l5.333 5.334a.667.667 0 0 1 0 .942l-5.333 5.334a.666.666 0 0 1-.943-.943L9.725 8 4.863 3.138a.667.667 0 0 1 0-.943Z" clip-rule="evenodd"/>
     </symbol>
+    <symbol id="plus" viewBox="0 0 18 18">
+        <path d="M9 3V15M3 9H15" stroke="#8E8E8E" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="minus" viewBox="0 0 18 18">
+        <path d="M3.75 9H14.25" stroke="black" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"/>
+    </symbol>
 </svg>

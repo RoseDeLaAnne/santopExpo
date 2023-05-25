@@ -14,6 +14,12 @@
     flex-direction: column;
 
     border-bottom: 1px solid #f2f2f2;
+
+    cursor: pointer;
+}
+
+.filters__item.filters__item_active .filters-content {
+    display: flex;
 }
 
 .filters__item-box-1 {
@@ -29,6 +35,15 @@
 }
 
 .filters-content {
+    margin-top: 20px;
+
     display: none;
     flex-direction: column;
+    row-gap: 24px;
+}
+
+.filters-content__label {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
 }

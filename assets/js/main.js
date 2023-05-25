@@ -271,4 +271,6 @@ document.addEventListener("DOMContentLoaded", () => {
     swipesBrands_right.addEventListener("click", () => {
         brands.scrollLeft += 286;
     });
+
+    c
 });

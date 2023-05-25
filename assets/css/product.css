@@ -187,8 +187,12 @@
     padding: 0 50px;
     margin-bottom: 24px;
 
-    display: grid;
+    display: none;
     grid-template-columns: 2fr 1fr;
+}
+
+.product-description.product-description_active {
+    display: grid;
 }
 
 .product-description__title {

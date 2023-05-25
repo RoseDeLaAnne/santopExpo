@@ -16,3 +16,19 @@
     display: flex;
     column-gap: 16px;
 }
+
+.sorting__item {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+    cursor: pointer;
+}
+
+.sorting__item span {
+    color: #c0c0c0;
+}
+
+.sorting__item.sorting__item_active span {
+    color: #000;
+}

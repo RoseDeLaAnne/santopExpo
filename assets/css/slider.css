@@ -80,7 +80,7 @@
     z-index: 100;
 }
 
-.card-slider__item {
+.slider .card-slider__item {
     width: 32px;
 }
 

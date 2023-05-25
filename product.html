@@ -331,25 +331,27 @@
 
                             <!-- slider for dynamic content -->
                             <ul class="product-navigation">
-                                <li class="product-navigation__item product-navigation__item_active">
+                                <li
+                                    class="product-navigation__item product-navigation__item_active" data-id="1"
+                                >
                                     Характеристики
                                 </li>
-                                <li class="product-navigation__item">
+                                <li class="product-navigation__item" data-id="2">
                                     Технические характеристики
                                 </li>
-                                <li class="product-navigation__item">
+                                <li class="product-navigation__item" data-id="3">
                                     О бренде
                                 </li>
-                                <li class="product-navigation__item">
+                                <li class="product-navigation__item" data-id="4">
                                     Размеры доставки
                                 </li>
-                                <li class="product-navigation__item">
+                                <li class="product-navigation__item" data-id="5">
                                     Документация
                                 </li>
                             </ul>
 
                             <!-- dynamic content -->
-                            <div class="product-description">
+                            <div class="product-description product-description_active" id="product-description_1">
                                 <div class="product-description__box-1">
                                     <p class="product-description__title">
                                         Описание
@@ -393,6 +395,99 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="product-description" id="product-description_2">
+                                <div class="product-description-sizes">
+                                    <div
+                                        class="product-description-sizes__item"
+                                    >
+                                        <div class="product-description__text">
+                                            Встраиваемый
+                                        </div>
+                                        <div class="product-description__text">
+                                            Нет
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-description-sizes__item"
+                                    >
+                                        <div class="product-description__text">
+                                            Количество монтажных отверстий
+                                        </div>
+                                        <div class="product-description__text">
+                                            1
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-description-sizes__item"
+                                    >
+                                        <div class="product-description__text">
+                                            Тип подводки
+                                        </div>
+                                        <div class="product-description__text">
+                                            Гибкий
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-description" id="product-description_3">
+                                <div class="product-description__box-1">
+                                    <p class="product-description__text">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Vitae, voluptate.
+                                    </p>
+                                    <p class="product-description__text">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Vitae, voluptate.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="product-description"
+                                id="product-description_4"
+                            >
+                                <div class="product-description-sizes">
+                                    <div
+                                        class="product-description-sizes__item"
+                                    >
+                                        <div class="product-description__text">
+                                            Номер товара
+                                        </div>
+                                        <div class="product-description__text">
+                                            Нет
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-description-sizes__item"
+                                    >
+                                        <div class="product-description__text">
+                                            Ширина, мм
+                                        </div>
+                                        <div class="product-description__text">
+                                            400
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-description-sizes__item"
+                                    >
+                                        <div class="product-description__text">
+                                            Высота, мм
+                                        </div>
+                                        <div class="product-description__text">
+                                            100
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="product-description"
+                                id="product-description_5"
+                            >
+                                <div class="product-description__box-1">
+                                    <p class="product-description__title">
+                                        Сертификаты
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -842,5 +937,6 @@
 
         <script src="assets/js/main.js"></script>
         <script src="assets/js/menu.js"></script>
+        <script src="assets/js/productNavigation.js"></script>
     </body>
 </html>
