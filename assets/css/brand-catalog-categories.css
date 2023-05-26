@@ -1,0 +1,31 @@
+.brand-catalog-categories {
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    scroll-behavior: smooth;
+}
+
+.brand-catalog-categories::-webkit-scrollbar {
+    display: none;
+}
+
+.brand-catalog-categories__item {
+    padding-bottom: 8px;
+
+    border: 1px solid #f2f2f2;
+}
+
+.brand-catalog-categories__item-img {
+    width: 144px;
+    height: 144px;
+}
+
+.brand-catalog-categories__item-name {
+    margin-top: 8px;
+
+    text-align: center;
+}

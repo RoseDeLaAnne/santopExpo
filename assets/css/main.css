@@ -26,6 +26,7 @@
 
 .main {
     margin-top: var(--header__height);
+    margin-bottom: 32px;
 
     display: flex;
     flex-direction: column;
@@ -37,6 +38,13 @@
     flex-direction: column;
 
     row-gap: 1.5em;
+}
+
+.main__box-11 {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 50px;
 }
 
 .hidden {
@@ -203,4 +211,11 @@ div {
 .img {
     width: 128px;
     height: 128px;
+}
+
+.brand-catalog__banner-img {
+    width: 100%;
+    height: 256px;
+
+    border-radius: 12px;
 }

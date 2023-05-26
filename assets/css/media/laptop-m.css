@@ -92,3 +92,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog .cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog .cards__item {
+    flex: 1 1 288px;
+}

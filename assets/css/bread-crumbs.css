@@ -2,8 +2,16 @@
     display: flex;
     align-items: center;
     column-gap: 10px;
+
+    font-size: calc(12px + (16 - 12) * (100vw - 320px) / (1920 - 320));
 }
 
 .bread-crumbs__link {
+    font-size: calc(12px + (16 - 12) * (100vw - 320px) / (1920 - 320));
+
     color: #8e8e8e;
+}
+
+.breadcrumbs__current {
+    font-size: calc(12px + (16 - 12) * (100vw - 320px) / (1920 - 320));
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .range-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .range-input {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+    .range-input input[type="range"] {
+      width: 100%;
+      height: 10px;
+      -webkit-appearance: none;
+      background-color: #ddd;
+      outline: none;
+    }
+
+    .range-input input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      background-color: #4CAF50;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="range-container">
+    <div class="range-input">
+      <input type="range" min="0" max="100" value="50" step="1" id="lowerRange">
+    </div>
+    <div class="range-input">
+      <input type="range" min="0" max="100" value="75" step="1" id="upperRange">
+    </div>
+  </div>
+
+  <script>
+    var lowerSlider = document.getElementById("lowerRange");
+    var upperSlider = document.getElementById("upperRange");
+
+    lowerSlider.oninput = function() {
+      if (parseInt(lowerSlider.value) > parseInt(upperSlider.value)) {
+        upperSlider.value = lowerSlider.value;
+      }
+    };
+
+    upperSlider.oninput = function() {
+      if (parseInt(upperSlider.value) < parseInt(lowerSlider.value)) {
+        lowerSlider.value = upperSlider.value;
+      }
+    };
+  </script>
+</body>
+</html>

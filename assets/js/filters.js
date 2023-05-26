@@ -1,7 +1,7 @@
 const filtersItem = document.querySelectorAll(".filters__item");
 
 for (const i of filtersItem) {
-    i.addEventListener("click", () => {
+    i.querySelector('.filters__item-box-1').addEventListener("click", () => {
         i.classList.toggle("filters__item_active");
 
         if (i.classList.contains("filters__item_active")) {

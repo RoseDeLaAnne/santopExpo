@@ -13,7 +13,7 @@
 }
 
 .sorting__box-2 {
-    display: flex;
+    display: none;
     column-gap: 16px;
 }
 

@@ -326,3 +326,47 @@
 .cards__item-btn {
     display: flex;
 }
+
+.catalog-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-list__item-icon {
+    display: block;
+}
+
+.catalog-list__link {
+    display: block;
+}
+
+.categories-of-catalog-list {
+    display: none;
+}
+
+/* filters */
+
+.filters {
+    display: none;
+}
+
+/* catalog */
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+}
+
+.sorting {
+    display: none;
+}
+
+.catalog .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.catalog .cards__item {
+    min-width: auto;
+    width: 100%;
+}
